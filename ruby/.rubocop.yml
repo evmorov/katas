@@ -1,0 +1,11 @@
+Documentation:
+  Enabled: false
+
+Naming/FileName:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
