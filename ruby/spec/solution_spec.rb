@@ -1,12 +1,9 @@
-require_relative 'spec_helper'
 require_relative '../src/solution'
 
-describe do
-  it do
-    expect(func).to eq('hello world')
-  end
-
-  it do
-    expect(func).to eq('byebye')
+describe 'solution' do
+  describe '#sum' do
+    it do
+      expect(sum(1, 3)).to eq(4)
+    end
   end
 end

@@ -1,3 +1,3 @@
-def func
-  'hello world'
+def sum(a, b)
+  a + b
 end
