@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --exit",
     "lint": "eslint --ignore-path .gitignore .",
-    "pretty": "prettier --parser babel --write '**/*.js'"
+    "format": "prettier --parser babel --write '**/*.js'"
   },
   "author": "",
   "license": "ISC",
