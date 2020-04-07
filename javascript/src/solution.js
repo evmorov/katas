@@ -1,3 +1,3 @@
-const func = () => 'hello world';
+const hello = () => 'hello world';
 
-module.exports = { func };
+module.exports = { hello };

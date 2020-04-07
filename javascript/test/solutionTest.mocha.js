@@ -1,12 +1,12 @@
 const { expect } = require('chai');
-const { func } = require('../src/solution');
+const { hello } = require('../src/solution');
 
 describe('#solution', function() {
   it('success', function() {
-    expect(func()).to.eq('hello world');
+    expect(hello()).to.eq('hello world');
   });
 
   it('error', function() {
-    expect(func()).to.eq('byebye');
+    expect([1, 2, 3]).deep.equal([1, 3, 2]);
   });
 });
