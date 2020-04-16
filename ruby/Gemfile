@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'm'
+gem 'minitest'
 gem 'pry'
 gem 'rspec'
 gem 'rubocop'
