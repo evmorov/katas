@@ -1,4 +1,10 @@
 {
+  "env": {
+    "es6": true,
+    "jest": true,
+    "mocha": true,
+    "node": true
+  },
   "extends": [
     "airbnb-base"
   ],
@@ -6,42 +12,10 @@
     "mocha",
     "chai-friendly"
   ],
-  "env": {
-    "es6": true,
-    "node": true,
-    "mocha": true,
-    "jest": true
-  },
   "rules": {
-    "no-console": "off",
-    "no-plusplus": "off",
-    "no-underscore-dangle": [
-      "error",
-      {
-        "allowAfterThis": true
-      }
-    ],
-    "no-unused-vars": [
-      1,
-      {
-        "vars": "all",
-        "args": "after-used",
-        "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
-      }
-    ],
+    "chai-friendly/no-unused-expressions": 2,
     "comma-dangle": "off",
     "func-names": "off",
-    "space-before-function-paren": [
-      "error",
-      {
-        "anonymous": "always",
-        "named": "never",
-        "asyncArrow": "always"
-      }
-    ],
-    "object-curly-newline": "off",
-    "import/prefer-default-export": "off",
     "import/no-dynamic-require": "off",
     "import/no-extraneous-dependencies": [
       "error",
@@ -51,9 +25,35 @@
         ]
       }
     ],
+    "import/prefer-default-export": "off",
+    "mocha/prefer-arrow-callback": 2,
+    "no-console": "off",
+    "no-plusplus": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
+    ],
     "no-unused-expressions": 0,
-    "chai-friendly/no-unused-expressions": 2,
+    "no-unused-vars": [
+      1,
+      {
+        "args": "after-used",
+        "argsIgnorePattern": "^_",
+        "vars": "all",
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "object-curly-newline": "off",
     "prefer-arrow-callback": 0,
-    "mocha/prefer-arrow-callback": 2
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "asyncArrow": "always",
+        "named": "never"
+      }
+    ]
   }
 }
