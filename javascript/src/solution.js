@@ -1,3 +1,1 @@
-const hello = () => 'hello world';
-
-module.exports = { hello };
+export const hello = () => 'hello world';

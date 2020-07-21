@@ -1,5 +1,5 @@
-const { expect } = require('chai');
-const { hello } = require('../src/solution');
+import { expect } from 'chai';
+import { hello } from '../src/solution';
 
 describe('#solution', function () {
   it('success', function () {

@@ -1,4 +1,4 @@
-const { hello } = require('../src/solution');
+import { hello } from '../src/solution';
 
 describe('#solution', () => {
   test('success', () => {

@@ -8,6 +8,9 @@
   "extends": [
     "airbnb-base"
   ],
+  "globals": {
+    "BigInt": true
+  },
   "plugins": [
     "mocha",
     "chai-friendly"
