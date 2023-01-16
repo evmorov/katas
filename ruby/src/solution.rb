@@ -1,3 +1,3 @@
-def sum(a, b)
+def solution(a, b)
   a + b
 end
