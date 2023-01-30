@@ -1,1 +1,4 @@
-export const solution = () => 'hello world';
+export const solution = () => {
+  const result = 'hello world'
+  return result
+}
