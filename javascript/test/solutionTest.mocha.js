@@ -1,9 +1,9 @@
 import { expect } from 'chai';
-import { hello } from '../src/solution';
+import { solution } from '../src/solution';
 
 describe('#solution', function () {
   it('success', function () {
-    expect(hello()).to.eq('hello world');
+    expect(solution()).to.eq('hello world');
   });
 
   it('error', function () {

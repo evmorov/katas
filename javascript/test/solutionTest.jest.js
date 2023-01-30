@@ -1,8 +1,8 @@
-import { hello } from '../src/solution';
+import { solution } from '../src/solution';
 
 describe('#solution', () => {
   test('success', () => {
-    expect(hello()).toEqual('hello world');
+    expect(solution()).toEqual('hello world');
   });
 
   test('error', () => {
