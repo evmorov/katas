@@ -1,5 +1,4 @@
-export default class Greeting {
-  static hello(): string {
-    return 'hello world';
-  }
+export const solution = (): string => {
+  const result = 'hello world'
+  return result
 }

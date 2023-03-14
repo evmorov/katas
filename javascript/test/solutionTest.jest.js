@@ -1,11 +1,11 @@
 import { solution } from '../src/solution'
 
 describe('#solution', () => {
-  test('success', () => {
+  it('success', () => {
     expect(solution()).toEqual('hello world')
   })
 
-  test('error', () => {
+  it('error', () => {
     expect([1, 2, 3]).toEqual([1, 3, 2])
   })
 })
