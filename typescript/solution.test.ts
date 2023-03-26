@@ -1,7 +1,7 @@
 import { solution } from './solution'
-const jestConsole = console;
-beforeEach(() => global.console = require('console'));
-afterEach(() => global.console = jestConsole);
+const jestConsole = console
+beforeEach(() => (global.console = require('console')))
+afterEach(() => (global.console = jestConsole))
 
 describe('#solution', () => {
   it('success', () => {
