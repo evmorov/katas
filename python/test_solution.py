@@ -2,7 +2,7 @@ from solution import solution
 
 
 def test_success():
-    assert solution() == "hello world"
+    assert "hello world" == solution()
 
 
 def test_error():
