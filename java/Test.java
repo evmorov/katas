@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Test {
   public static void main(String[] args) {
     Solution s = new Solution();
@@ -15,6 +17,15 @@ class Test {
 
   private static <T> void actual(T s) {
     System.out.println("  Actual: " + s);
+    System.out.println();
+  }
+
+  private static void expected(double[] s) {
+    System.out.println("Expected: " + Arrays.toString(s));
+  }
+
+  private static void actual(double[] s) {
+    System.out.println("  Actual: " + Arrays.toString(s));
     System.out.println();
   }
 }
