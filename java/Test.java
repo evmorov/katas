@@ -2,13 +2,19 @@ import java.util.Arrays;
 
 class Test {
   public static void main(String[] args) {
-    Solution s = new Solution();
-
-    actual(s.solution(1, 3));
-    expected(4);
-
-    actual(s.solution(1, 4));
-    expected("4");
+    ParkingSystem p = new ParkingSystem(1, 1, 0);
+    System.out.println(
+      p.addCar(1)
+    );
+    System.out.println(
+      p.addCar(2)
+    );
+    System.out.println(
+      p.addCar(3)
+    );
+    System.out.println(
+      p.addCar(1)
+    );
   }
 
   private static <T> void actual(T s) {
